@@ -73,7 +73,7 @@ namespace ParadigmaChallenge
             {
                 for (int j = i + 1; j < values.Length; j++)
                 {
-                    if (values[i] > values[j])
+                    if (values[i] < values[j])
                     {
                         int aux = values[i];
                         values[i] = values[j];
