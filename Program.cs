@@ -13,9 +13,9 @@ namespace ParadigmaChallenge
 
             Console.WriteLine("Quantos elementos deseja inserir a árvore?");
             length = int.Parse(Console.ReadLine());
-            if (length <= 1)
+            if (length < 2)
             {
-                Console.WriteLine("Precisa de no mínimo dois elementos");
+                Console.WriteLine("Precisa de no mínimo três elementos");
                 Main(null);
             }
             elements = new int[length];
